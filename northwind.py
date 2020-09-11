@@ -1,9 +1,9 @@
 # import sqlite library
 import sqlite3
 
-# open a connection for demo_data.sqlite3
+# open a connection for northwind_small.sqlite3
 # make a cursor
-conn = sqlite3.connect('demo_data.sqlite3')
+conn = sqlite3.connect('northwind_small.sqlite3')
 cur = conn.cursor()
 
 # test the connection
